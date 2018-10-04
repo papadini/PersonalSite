@@ -1,7 +1,72 @@
+.nav-link > b {
+  color: white;
+}
+ .dtDenver {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: 80px;
+
+}
+.name1 {
+  position:absolute;
+font-family: 'Poiret One', cursive;
+ font-size: 56px;
+ line-height: 80px;
+  top: 100px;
+  left: 30px;
+
+}
+.title1 {
+  position:absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: black;
+  top: 20%;
+  left: 22%;
+
+}
+.phone1 {
+  height: 50px;
+  width: 40px;
+  position: relative;
+  margin-bottom: 10px;
 
 
+}
+.pnum {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.email1 {
+  height: 50px;
+  width: 40px;
+  position: relative;
+  margin-bottom: 10px;
 
-h1 {
-  color: blue;
-  font-family: fantasy;
+
+}
+.email2 {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.link1 {
+  height: 50px;
+  width: 40px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 40px;
+
+}
+.link2 {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#para1, #para3, #para5 {
+  position: relative;
+  margin-left: 2%;
+
 }
