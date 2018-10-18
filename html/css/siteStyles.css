@@ -1,72 +1,226 @@
-.nav-link > b {
+.nav-link>b {
   color: white;
 }
- .dtDenver {
+#paintpic{
+position: absolute;
+transform: rotate(0deg);
+z-index: -1;
+top: -15%;
+opacity: .3;
+left: 26%;
+margin-left: -330px;
+}
+
+#paintpic2{
+position: absolute;
+transform: rotate(0deg);
+z-index: -1;
+
+opacity: .3;
+left: 26%;
+margin-left: -330px;
+}
+#paintpic3{
+position: absolute;
+transform: rotate(180deg);
+z-index: -1;
+margin-top: -30%;
+opacity: .3;
+left: 26%;
+margin-right: -330px;
+}
+
+
+
+
+.dtDenver {
+
   position: relative;
   width: 100%;
-  z-index: -1;
-  margin-bottom: 80px;
-
+  z-index: -2;
+  margin-bottom: 130px;
 }
+
 .name1 {
-  position:absolute;
-font-family: 'Poiret One', cursive;
- font-size: 56px;
- line-height: 80px;
-  top: 100px;
-  left: 30px;
-
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+  font-size: 56px;
+  line-height: 80px;
+  top: 10%;
+  left: 12%;
 }
+
 .title1 {
-  position:absolute;
+  position: absolute;
   font-family: 'Poiret One', cursive;
   font-size: 30px;
   color: black;
   top: 20%;
   left: 22%;
-
 }
+
 .phone1 {
   height: 50px;
   width: 40px;
   position: relative;
   margin-bottom: 10px;
-
-
+  margin-left: 20%;
 }
+
 .pnum {
   position: relative;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .email1 {
   height: 50px;
   width: 40px;
   position: relative;
+  margin-left: 15%;
   margin-bottom: 10px;
-
-
 }
+
 .email2 {
   position: relative;
   margin-top: 15px;
   margin-bottom: 10px;
 }
-.link1 {
-  height: 50px;
-  width: 40px;
-  position: relative;
-  margin-bottom: 10px;
-  margin-left: 40px;
 
+#link1 {
+  height: 30px;
+  width: 20px;
+  position:relative;
+  top:10px;
+  left: 100px;
 }
+#linkimg{
+  height: 40px;
+  width: 30px;
+  position: relative;
+  margin-left: 100px;
+}
+
 .link2 {
   position: relative;
   margin-top: 15px;
   margin-bottom: 10px;
 }
+#bottomRow{
+  position: relative;
+  padding-left: 10%;
+}
+
 #para1, #para3, #para5 {
   position: relative;
   margin-left: 2%;
+}
 
+#edupics{
+  background-color: white;
+  border-radius: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#kylepic{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -20%;
+  left:55%;
+
+}
+#cloud{
+  position: relative;
+  font-weight: bold;
+  width: 550px;
+  height: 300px;
+  margin-top: -50%;
+}
+
+#family2{
+  position: relative;
+  width: 380px;
+  height: 300px;
+  left: 30%;
+  top:10%;
+  z-index: 1;
+
+}
+#worklife {
+  position: relative;
+  border: 1px solid orange;
+
+}
+.sdsu {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  top: 20%;
+  left: 6%;
+  margin-right: 2%
+
+}
+
+.hills {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 20%;
+  left: 3%;
+
+}
+.sd {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 20%;
+  left: 9%;
+  border-radius: 10%;
+  border: 1px solid black;
+
+
+}
+.uc-denver {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 20%;
+  left: 12%;
+  border-radius: 10%;
+}
+
+#projectpics{
+  position: relative;
+  height: 150px;
+  border-radius: 10%;
+  border: 1px solid black
+
+}
+#projump{
+  position: relative;
+  padding-top: 5%;
+}
+
+#pictitle{
+  color: black;
+
+}
+#filmicon{
+  
+}
+#pictitle:hover{
+  color:blue;
+  text-decoration: underline;
+}
+#para5{
+  position: relative;
+  padding-top: 3%;
+}
+#pictureRow{
+  position: relative;
+  padding-bottom: 5%;
+  padding-left: 7%;
 }
